@@ -144,6 +144,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/potter/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
+    vendor/motorola/potter/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/motorola/potter/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/motorola/potter/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
+    vendor/motorola/potter/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/potter/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/motorola/potter/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
