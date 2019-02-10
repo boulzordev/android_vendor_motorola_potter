@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/potter/proprietary/vendor/bin/qmi_motext_hook:system/vendor/bin/qmi_motext_hook \
     vendor/motorola/potter/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/motorola/potter/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/motorola/potter/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/potter/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/potter/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/potter/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
@@ -1231,17 +1233,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:/system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:/system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-iopd-client_system.so:/system/vendor/lib64/libqti-iopd-client_system.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-perfd-client_system.so:/system/vendor/lib64/libqti-perfd-client_system.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
-    vendor/motorola/potter/proprietary/bin/perfservice:/system/bin/perfservice \
-    vendor/motorola/potter/proprietary/etc/init/perfservice.rc:/system/etc/init/perfservice.rc \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:/system/vendor/lib64/vendor.qti.hardware.iop@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:/system/vendor/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:/system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
@@ -1400,7 +1391,5 @@ PRODUCT_PACKAGES += \
     CNEService \
     libbtnv \
     WfdService \
-    WfdCommon \
-    UxPerformance \
-    QPerformance
+    WfdCommon
 
